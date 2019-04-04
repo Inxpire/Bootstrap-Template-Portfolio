@@ -1,0 +1,137 @@
+/*------------
+--------------
+GLOBAL Styles
+--------------
+--------------*/
+
+
+/*Color Palette
+
+medium-grey: #45484d,
+charcoal: #161616,
+white: #FFFFFF,
+light-grey: rgba(255, 255, 255, .5),
+red: #ff1a00
+
+
+
+
+
+*/
+
+a.btn-primary, .btn-primary{
+
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(left, #45484d 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #45484d 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #45484d 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#45484d', endColorstr='#000000', GradientType=1); /* IE6-9 */
+    opacity: 0.8;
+
+    border-radius: 0;
+}
+
+
+
+
+
+
+/*------------
+HEADER SECTION
+--------------*/
+
+
+/*main nav*/
+
+#mainNav button.navbar-toggler  {
+
+    color: #161616;
+    border: 1px solid #161616;
+}
+
+
+/*--------------
+MAIN SECTION
+---------------- */
+
+/*about section
+---------------*/
+
+h3.h3-about {
+
+    color: #FFFFFF;
+    opacity: 0.6;
+
+}
+
+/*---------------
+RESPONSIVE STYLES
+-----------------*/
+
+
+
+
+/*screen => 992px; */
+
+
+@media only screen and (min-width: 992px){
+    #mainNav.navbar-shrink {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+        background: #45484d; /* Old browsers */
+        background: -moz-linear-gradient(left, #45484d 0%, #000000 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+
+
+    }
+
+    #mainNav.navbar-shrink .navbar-brand , #mainNav.navbar-shrink .nav-link {
+        color: rgba(255, 255, 255, .5);
+    }
+
+    #mainNav.navbar-shrink .nav-link.active {
+        color: #FFFFFF;
+        opacity: 0.9;
+        outline: 0;
+        border-bottom: .25rem solid #ff1a00;
+    }
+
+    .projects-section .featured-text {
+        padding: 0 0 0 2rem;
+        border-left: .5rem solid  #ff1a00;
+        opacity: 0.8;
+    }
+
+    .projects-section .project-text hr {
+        border-color: #ff1a00;
+        opacity: 0.8;
+        border-width: .25rem;
+        width: 30%;
+
+    }
+
+    .contact-section .card {
+        border-bottom: .25rem solid #ff1a00;
+        opacity: 0.8;
+    }
+
+    .contact-section .card hr {
+        border-color: #ff1a00;
+        opacity: 0.8;
+    }
+
+    .text-primary {
+        color: #ff1a00!important;
+        opacity: 0.8;
+    }
+
+    a {
+        color: #ff1a00;
+    }
+
+    a:hover {color: #ff1a00;
+    }
+}
